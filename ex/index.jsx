@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom'
 import Component from './componente'
 
 ReactDOM.render(
-    <Component/>, document.getElementById('app')
+    <Component value='Show!'/>, document.getElementById('app')
 )
 
