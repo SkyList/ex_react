@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Component from './componente'
 
 ReactDOM.render(
-    <h1>ola React</h1>, 
-    document.getElementById('app')
+    <Component/>, document.getElementById('app')
 )
 
