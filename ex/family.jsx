@@ -1,8 +1,8 @@
 import React from 'react'
-
+import {childrenWitchProps} from '../utils/reactUtils'
 export default props => (
     <div>
         <h1>Família</h1>
-        { React.cloneElement(props.children, {...props}) }
+        { childrenWitchProps(props.children, props) }
     </div>
 )
