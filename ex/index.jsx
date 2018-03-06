@@ -7,7 +7,7 @@ import Member from './member'
 import ClassComponent from './classComponent'
 
 ReactDOM.render(
-    <ClassComponent value='Componente Classe'/>
+    <ClassComponent label='Contador' initialValue={10}/>
     ,document.getElementById('app')
 )
 
