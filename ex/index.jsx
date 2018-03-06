@@ -5,9 +5,10 @@ import SilvaFamily from './silvaFamily'
 import Family from './family'
 import Member from './member'
 import ClassComponent from './classComponent'
+import Field from './field'
 
 ReactDOM.render(
-    <ClassComponent label='Contador' initialValue={10}/>
+    <Field initialValue='Teste'/>
     ,document.getElementById('app')
 )
 
